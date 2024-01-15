@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+/* header starts here  */
+.header-section{
+    max-width: 1170px;
+    margin: 52px auto 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nav-title{
+    display: flex;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    gap: 16px;
+}
+.navbar>ul{
+    display: flex;
+    gap: 44px;
+}
+.navbar>i{
+    display: none;
+}
+.navbar>ul>li{
+    list-style: none;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+#home{
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* navbar end  */
+
+
+/* banner start  */
+.banner-section{
+    padding: 106px 185px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-description{
+    max-width: 676px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px auto 48px;
+}
+.search-box{
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+.search-info, .search-box button{
+    width: 24%;
+    padding: 16px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.search-info::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.search-box button{
+    width: 24%;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FF5400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.search-box button i{
+    font-size: 24px;
+}
+.search-box .select-option{
+    display: inline-block;
+    padding: 16px 15px;
+}
+/* banner end  */
+
+/* main start  */
+.main-section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* main end  */
+
+/* popular tour start  */
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.popular-tour-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tour-description-1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+.popular-tour-list-item{
+    margin-left: 20px;
+}
+.popular-tour-list-item>li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 525px;
+}
+.list-item-2{
+    padding: 16px 0;
+}
+.popular-tour-description-2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 32px;
+    max-width: 530px;
+}
+
+.popular-tour-button{
+    padding: 14px 34px;
+}
+
+.popular-tour-img{
+    min-height: 550px;
+    max-width: 540px;
+}
+.popular-tour-img img{
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: block;
+}
