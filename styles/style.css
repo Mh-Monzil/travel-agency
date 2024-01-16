@@ -13,6 +13,10 @@
     border-radius: 8px;
     background: #FF5400;
     border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* header starts here  */
@@ -308,4 +312,99 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+/* choose us end  */
+
+
+/* discount start  */
+.discount-section{
+    margin-top: 100px;
+}
+.discount-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 643px;
+    margin: 24px auto 0;
+}
+.discount-img-container-1{
+    height: 500px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 55px;
+    display: flex;
+    justify-content: end;
+}
+.discount-card{
+    max-height: 390px;
+    width: 55%;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.time-people-location{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.time, .people, .location{
+    display: flex;
+    gap: 8px;
+}
+.location-title{
+    margin: 26px 0 16px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.location-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.location-cost{
+    margin: 16px 0 38px;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.book-location-btn{
+    padding: 14px 25px;
+}
+
+.discount-img-container-2{
+    height: 500px;
+    margin-top: 24px;
+    border-radius: 16px;
+    background: url('../Images/Group\ 40.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 55px;
+    display: flex;
+    justify-content: start;
+}
+.discount-img-container-3{
+    height: 500px;
+    margin-top: 24px;
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 55px;
+    display: flex;
+    justify-content: end;
 }

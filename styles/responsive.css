@@ -15,6 +15,9 @@
     .popular-tour-img img{
         width: 100%;
     }
+    .discount-img-container-1,.discount-img-container-2,.discount-img-container-3{
+        padding: 45px;
+    }
     
 }
 @media screen and (max-width: 600px){
@@ -127,6 +130,7 @@
     }
     .choose-card-container{
         margin-top: 16px;
+        gap: 16px;
     }
     .choose-card{
         width: 100%;
@@ -141,5 +145,43 @@
     .choose-card-description{
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .discount-section{
+        margin-top: 24px;
+    }
+    .discount-title{
+        font-size: 20px;
+    }
+    .discount-description{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+    .discount-img-container-1,.discount-img-container-2,.discount-img-container-3{
+        margin-top: 16px;
+        padding: 16px;
+        justify-self: center;
+        align-items: end;
+    }
+    .discount-card{
+        width: 100%;
+        padding: 25px;
+    }
+    .time-people-location{
+        flex-wrap: wrap;
+    }
+    .location-title{
+        margin: 18px 0 8px;
+        font-size: 20px;
+    }
+    .location-description{
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .location-cost{
+        margin: 12px 0 16px;
+    font-size: 16px;
     }
 }
