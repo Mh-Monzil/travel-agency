@@ -276,4 +276,26 @@
         font-size: 21.138px;
         font-weight: 800;
     }
+
+    .footer-container{
+        margin-top: 24px;
+        padding: 32px 20px;
+    }
+    .footer-title>img{
+        height: 32px;
+    }
+    .footer-title>p{
+        font-size: 21.543px;
+    }
+    .footer-description{
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .social-links{
+        padding: 16px 0 24px;
+        margin-bottom: 24px;
+    }
+    .footer-section>small{
+        font-size: 14px;
+    }
 }
