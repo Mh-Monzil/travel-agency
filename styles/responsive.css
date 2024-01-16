@@ -21,6 +21,10 @@
     .perfect-place-video>img{
         width: 100%;
     }
+    .newsletter-img>img{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media screen and (max-width: 600px){
     .header-section{
@@ -235,5 +239,41 @@
     }
     .video-control-bottom{
         margin-top: 10px;
+    }
+
+    .newsletter-section{
+        margin-top: 24px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .newsletter-subscribe{
+        padding: 24px;
+    }
+    .newsletter-title{
+        font-size: 20px;
+    }
+    .newsletter-description{
+        margin-top: 5px;
+        padding-bottom: 16px;
+        font-size: 14px;
+        line-height: 24px; 
+    }
+    .newsletter-img{
+        min-height: 300px;
+    }
+    .newsletter-img>img{
+        width: 100%;
+        height: 100%;
+    }
+    .save70{
+        padding: 20px;
+    }
+    .save70>span{
+        font-size: 15.854px;
+        font-weight: 400;
+    }
+    .save70>p{
+        font-size: 21.138px;
+        font-weight: 800;
     }
 }
