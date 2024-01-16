@@ -514,6 +514,76 @@
 }
 /* perfect place end  */
 
+
+/* testimonial start here  */
+.testimonial{
+    margin-top: 100px;
+    text-align: center;
+}
+.testimonial-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.testimonial-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 670px;
+    margin: 24px auto;
+}
+.testimonial-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+.testimonial-card{
+    width: 30%;
+    min-height: 350px;
+    box-shadow: 2px 2px 10px 2px lightgray;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.star{
+    margin:20px 0 10px;
+}
+.review-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.reviewer-name{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+.review-date{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.reviewer-img{
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+}
+.reviewer-img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: top;
+}
+
+/* testimonial end here  */
+
+
 /* newsletter start  */
 .newsletter-section{
     margin-top: 100px;
@@ -592,6 +662,8 @@
     font-size: 32px;
     font-weight: 800;
 }
+/* newsletter end  */
+
 
 /* footer start  */
 .footer-container{
