@@ -632,8 +632,8 @@
     margin-top: 24px;
 }
 .newsletter-img{
-    max-width: 672px;
-    min-height: 422px;
+    max-width: 65%;
+    min-height: 35%;
     position: relative;
 }
 .newsletter-img>img{
@@ -645,7 +645,7 @@
 .save70{
     position: absolute;
     bottom: 10%;
-    right: 2%;
+    right: 1%;
     border-radius: 16px;
     background: #FF5400;
     transform: rotate(-19deg);

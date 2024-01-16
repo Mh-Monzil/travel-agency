@@ -259,23 +259,22 @@
         line-height: 24px; 
     }
     .newsletter-img{
-        min-height: 300px;
+        max-width: 100%;
+        min-height: 45%;
     }
     .newsletter-img>img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        overflow: hidden;
     }
     .save70{
-        padding: 20px;
+        padding: 15px;
     }
     .save70>span{
-        font-size: 15.854px;
+        font-size: 14px;
         font-weight: 400;
     }
     .save70>p{
-        font-size: 21.138px;
+        font-size: 18px;
         font-weight: 800;
     }
 
