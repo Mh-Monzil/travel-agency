@@ -327,3 +327,9 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .save70{
+        bottom: 15%;
+    }
+}
